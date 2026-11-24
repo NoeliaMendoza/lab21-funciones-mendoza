@@ -20,6 +20,9 @@ import static ec.edu.espe.pa.funcional.reglas.ReglasIncidencia.PRIORIDAD_ALTA;
 import static ec.edu.espe.pa.funcional.reglas.ReglasIncidencia.REQUIERE_ATENCION;
 import static ec.edu.espe.pa.funcional.reglas.ReglasIncidencia.RESUMEN;
 
+/**
+ * Ejecuta ejemplos de interfaces funcionales, composición y referencias a métodos.
+ */
 public class Demostracion {
     public static void main(String[] args) {
         System.out.println("== Fase 2: interfaces funcionales ==");

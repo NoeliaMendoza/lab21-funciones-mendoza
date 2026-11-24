@@ -9,10 +9,16 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
+/**
+ * Agrupa las reglas de selección, las transformaciones y las acciones reutilizables del laboratorio.
+ */
 public final class ReglasIncidencia {
     private ReglasIncidencia() {
     }
 
+    /**
+     * Prioridad mínima de una incidencia para considerarla de prioridad alta.
+     */
     public static final int UMBRAL_PRIORIDAD_ALTA = 4;
 
     // Predicate: recibe una incidencia y devuelve si está abierta.
@@ -55,6 +61,9 @@ public final class ReglasIncidencia {
         };
     }
 
+    /**
+     * Devuelve {@code true} si la incidencia tiene prioridad 5.
+     */
     public static boolean esCritica(Incidencia incidencia) {
         return incidencia.prioridad() == 5;
     }

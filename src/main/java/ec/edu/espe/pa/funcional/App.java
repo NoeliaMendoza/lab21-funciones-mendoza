@@ -14,6 +14,9 @@ import static ec.edu.espe.pa.funcional.reglas.ReglasIncidencia.NOTIFICAR;
 import static ec.edu.espe.pa.funcional.reglas.ReglasIncidencia.REQUIERE_ATENCION;
 import static ec.edu.espe.pa.funcional.reglas.ReglasIncidencia.RESUMEN;
 
+/**
+ * Compara ambos procesadores sobre los mismos datos y muestra avisos y categorías.
+ */
 public class App {
     public static void main(String[] args) {
         FabricaIncidencia fabrica = Incidencia::new;
